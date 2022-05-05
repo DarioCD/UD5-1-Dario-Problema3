@@ -6,7 +6,7 @@ public class GenericStack<T> {
 
     private GenericCollection<T> collection = new GenericCollection<T>(CAPACIDAD_INICIAL);
 
-    public void push(T element) {
+    public void push(String element) {
         collection.insert(element, TOP);
     }
 
